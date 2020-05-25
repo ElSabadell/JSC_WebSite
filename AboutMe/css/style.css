@@ -1,0 +1,177 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rakkas&display=swap');
+
+html, body{
+  font-family: 'Roboto', sans-serif;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #262626;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+
+.brand-logo{
+  font-family: 'Comfortaa', cursive;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+
+.nav-wrapper{
+  position: relative;
+  height: 100%;
+  padding: 0 50px;
+}
+
+span:hover{
+  color: #13c000;
+  transition-duration: .4s;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  .header{
+    font-size: 55px;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  .header{
+    font-size: 55px;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+
+}
+
+hr{
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+.x-collab{
+  font-family: 'Fredoka One', cursive;
+  color: white;
+  width: 10px;
+}
+.teal-text.text-lighten-2 {
+  color: #ccf7c7  !important;
+  font-family: 'Staatliches', cursive;
+  text-shadow: -15px 0 black, 0 1px rgb(5, 5, 5), 1px 0 black, 0 -1px black;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+.brown-text {
+  color: #91e077 !important;
+}
+h5{
+  font-family: 'Jost', sans-serif;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, .4);
+}
+.header_sub_title{
+  color: white;
+}
+.footer_links{
+  color: #5f5f5f;
+}
+.material-icons{
+  text-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+}
+.header{
+  margin-top: 10%;
+}
+.card-image{
+  width: 40%;
+}
+.card{
+  width: 100%;
+}
+nav{
+  background-color: white;
+}
+.breadcrumb {
+  color: rgba(0, 0, 0, 0.7);
+}
+.breadcrumb:before {
+  color: rgba(0, 0, 0, 0.7);
+}
+.breadcrumb:last-child {
+  color: rgba(0, 0, 0, 1);
+}
+.row .col.m6{
+  width: 100%;
+}
+.iniziale {
+  float:left;
+  color: #222;
+  font-size: 72px;
+  line-height: 40px;
+  padding-top: 0.26em;
+  padding-right: 4px;
+  padding-bottom: 0px;
+  font-family: 'Rakkas', cursive;
+  }
+.title_aboutMe{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  font-size: 30px;
+}
+.card-image, img{
+  width: 10em;
+  padding-left: 0.8em;
+  padding-top: 0.8em;
+}
+.card{
+  -webkit-box-shadow: -2px 1px 11px 2px rgba(161,161,161,1);
+  -moz-box-shadow: -2px 1px 11px 2px rgba(161,161,161,1);
+  box-shadow: -2px 1px 11px 2px rgba(161,161,161,1);
+  border-radius: 15px;
+}

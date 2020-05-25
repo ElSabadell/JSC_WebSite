@@ -1,0 +1,134 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Jost&display=swap');
+
+
+html, body{
+  font-family: 'Roboto', sans-serif;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #262626;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+
+.brand-logo{
+  font-family: 'Comfortaa', cursive;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+
+.nav-wrapper{
+  position: relative;
+  height: 100%;
+  padding: 0 50px;
+}
+
+span:hover{
+  color: #13c000;
+  transition-duration: .4s;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  .breadcrumb{
+    font-size: 16px;
+    padding-left: 0.1em;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  .breadcrumb{
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width : 620px) {
+  .carousel{
+    height: 70em !important;
+  }
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+
+hr{
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+.x-collab{
+  font-family: 'Fredoka One', cursive;
+  color: white;
+  width: 10px;
+}
+
+nav{
+  background-color: white;
+}
+.breadcrumb {
+  color: rgba(0, 0, 0, 0.7);
+}
+.breadcrumb:before {
+  color: rgba(0, 0, 0, 0.7);
+}
+.breadcrumb:last-child {
+  color: rgba(0, 0, 0, 1);
+}
+.title_gallery{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  font-size: 30px;
+}
+.carousel, .carousel-item, img{
+  border-radius: 30px;
+  padding-left: 3px;
+  padding-right: 3px;
+  
+}
+h5{
+  font-family: 'Jost', sans-serif;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, .4);
+}
+
